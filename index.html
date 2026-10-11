@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Cake Shop – Best Cake &amp; Bakery</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost:wght@300;400;500&family=Poiret+One&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home">
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="stack" viewBox="0 0 240 200"><ellipse cx="120" cy="178" rx="105" ry="14" fill="#16303a"/><g fill="#d9964b"><ellipse cx="120" cy="150" rx="86" ry="16"/><ellipse cx="120" cy="130" rx="82" ry="16"/><ellipse cx="120" cy="110" rx="78" ry="15"/><ellipse cx="120" cy="90" rx="74" ry="15"/></g><path d="M50 150q70 30 140 0M46 130q74 30 148 0" stroke="#8a5322" stroke-width="3" fill="none"/><circle cx="120" cy="66" r="14" fill="#c4182f"/><circle cx="148" cy="82" r="9" fill="#26335e"/><circle cx="94" cy="84" r="9" fill="#26335e"/></symbol>
+      <symbol id="fb" viewBox="0 0 24 24"><path d="M13.5 22v-8.5h2.9l.5-3.5h-3.4V7.8c0-1 .3-1.7 1.7-1.7H17V3a22 22 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3V10H7.5v3.5h2.8V22z"/></symbol>
+      <symbol id="ig" viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.5 5.5a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></symbol>
+      <symbol id="tw" viewBox="0 0 24 24"><path d="M22 5.9c-.7.3-1.5.5-2.3.6.8-.5 1.5-1.3 1.8-2.2-.8.5-1.6.8-2.6 1a4.1 4.1 0 0 0-7 3.7A11.6 11.6 0 0 1 3.5 4.7a4.1 4.1 0 0 0 1.3 5.5c-.7 0-1.3-.2-1.9-.5 0 2 1.4 3.7 3.3 4.1-.6.2-1.2.2-1.8.1.5 1.6 2 2.8 3.8 2.8A8.2 8.2 0 0 1 2 18.4a11.6 11.6 0 0 0 6.3 1.8c7.500 0 11.700-6.300 11.700-11.700v-.5c.8-.6 1.500-1.300 2-2.100z"/></symbol>
+      <symbol id="pin" viewBox="0 0 24 24"><path d="M21 3L3 10.5l7 2.5 2.5 7z"/></symbol>
+      <symbol id="phone" viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2c1.1.4 2.3.6 3.6.6a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.3.2 2.5.6 3.6a1 1 0 0 1-.2 1z"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ===== HEADER ===== -->
+  <header class="wrap site-header">
+    <div class="top">
+      <div class="social">
+        <a href="#" aria-label="Facebook"><svg class="icon"><use href="#fb"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg class="icon"><use href="#ig"/></svg></a>
+        <a href="#" aria-label="Twitter"><svg class="icon"><use href="#tw"/></svg></a>
+      </div>
+      <a class="logo" href="#home">Cake Shop</a>
+      <a class="btn btn-outline call" href="tel:+107833464378">Call Us: +10 783 346 4378</a>
+    </div>
+  </header>
+
+  <!-- ===== STICKY NAV ===== -->
+  <nav class="main-nav" aria-label="Main">
+    <a href="#home">Home</a>
+    <a href="#cakes">Cakes</a>
+    <a href="#about">About</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+    <a href="#cart">Cart (<span id="cart-count">0</span>)</a>
+  </nav>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-label="Featured cakes">
+      <div class="slide" style="--c1:#7a2e2e">
+        <div class="ph" aria-hidden="true"><svg><use href="#cup"/></svg></div>
+        <div class="wrap"><h1>Healthy Made Delicious Cake</h1><a class="btn" href="#cakes">Order now</a></div>
+      </div>
+      <div class="slide" style="--c1:#a8681e">
+        <div class="ph" aria-hidden="true"><svg><use href="#cake"/></svg></div>
+        <div class="wrap">
+          <h1>Birthday Cakes Baked to Order</h1>
+          <a class="btn" href="#cakes">Order Now</a>
+        </div>
+      </div>
+      <div class="slide" style="--c1:#5a3a24">
+        <div class="ph" aria-hidden="true"><svg><use href="#slice"/></svg></div>
+        <div class="wrap"><h1>Slices Worth the Wait</h1><a class="btn" href="#contact">Order now</a></div>
+      </div>
+      <div class="hero-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="intro wrap" id="about">
+      <h2>Baked from scratch, finished by hand, made for your table.</h2>
+      <div class="rule"></div>
+
+      <div class="two-col">
+        <div>
+          <h3>Real butter, real fruit, no shortcuts.</h3>
+          <p>Every cake in our shop starts the same way: good ingredients and plenty of time. We bake in small batches each morning so what you pick up is fresh, never frozen.</p>
+          <p>Choose a favorite from the menu or tell us what you have in mind. We design cakes for birthdays, weddings and quiet Tuesdays alike.</p>
+        </div>
+        <div class="ph mini-slides" role="img" aria-label="Cake photo slideshow">
+          <img class="ih" src="images/about1.jpg" alt="Cakes">
+          <svg><use href="#slice"/></svg>
+          <svg><use href="#cup"/></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CAKES ===== -->
+    <section class="products" id="cakes" aria-label="Our cakes">
+      <div class="rail">
+
+        <article class="product">
+          <div class="ph" style="--c1:#1f4a58">
+            <img src="images/items2.jpg" alt="Chocolate & Vanilla">
+          </div>
+          <h3>Chocolate & Vanilla</h3>
+          <p class="price">₨ 2,900/-</p>
+          <button class="btn add-btn" data-name="Chocolate & Vanilla" data-price="2900">Add to cart</button>
+        </article>
+
+        <article class="product">
+          <div class="ph" style="--c1:#1f4a58">
+            <img src="images/items1.jpg" alt="Choco Cake">
+          </div>
+          <h3>Choco Cake</h3>
+          <p class="price">₨ 2,400/-</p>
+          <button class="btn add-btn" data-name="Choco Cake" data-price="2400">Add to cart</button>
+        </article>
+
+        <article class="product">
+          <div class="ph" style="--c1:#1f4a58">
+            <img src="images/items3.jpg" alt="Caramel Pancakes">
+          </div>
+          <h3>Caramel Pancakes</h3>
+          <p class="price">₨ 2,100/-</p>
+          <button class="btn add-btn" data-name="Caramel Pancakes" data-price="2100">Add to cart</button>
+        </article>
+
+        <article class="product">
+          <div class="ph" style="--c1:#1f4a58">
+            <img src="images/items1.jpg" alt="Choco Cake">
+          </div>
+          <h3>Choco Cake</h3>
+          <p class="price">₨ 2,400/-</p>
+          <button class="btn add-btn" data-name="Choco Cake" data-price="2400">Add to cart</button>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== VIDEO ===== -->
+    <section class="video-section">
+      <a class="ph video" id="video-link" style="--c1:#6b4a2a" href="video/248474_medium.mp4" aria-label="Play bakery film">
+        <img src="images/video-bg.jpg" alt="">
+        <span class="play"></span>
+      </a>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials wrap">
+      <h2>Food Lover's Say</h2>
+      <div class="cols">
+        <article><div class="stars" aria-label="5 stars">★★★★★</div><blockquote>"The cake looked like a sculpture and tasted even better. Every guest asked who baked it."</blockquote><div class="who"><span class="avatar"></span>Faiza Ghaffar</div></article>
+        <article><div class="stars" aria-label="5 stars">★★★★★</div><blockquote>"Ordered on Tuesday, picked up on Friday, and it was flawless. Not too sweet, just right."</blockquote><div class="who"><span class="avatar"></span>Abdul Ghaffar</div></article>
+        <article><div class="stars" aria-label="5 stars">★★★★★</div><blockquote>"Our family's birthday tradition now. The chocolate ombre is the one everyone asks for."</blockquote><div class="who"><span class="avatar"></span>Sehar Bano</div></article>
+      </div>
+    </section>
+
+    <!-- ===== BLOG ===== -->
+    <section class="blogs wrap" id="blog">
+      <div class="blogs-head"><h2>Our Blogs</h2><a class="btn" href="#blog">More blog</a></div>
+      <div class="blog-grid">
+        <article class="post">
+          <div class="ph" style="--c1:#7a5a3a"><img src="images/blog1.jpg" alt="Baking a three-layer cake"></div>
+          <div class="post-text"><h3>How we bake a three-layer cake from scratch</h3><p>A morning in our kitchen: from creaming the butter to the last swirl of frosting, and why we never rush a layer.</p><a class="more" href="#blog">Learn more</a></div>
+        </article>
+        <article class="post">
+          <div class="ph" style="--c1:#2a2a2a"><img src="images/blog2.jpg" alt="Small celebration cake"></div>
+          <div class="post-text"><h3>Choosing a cake for a small celebration</h3><p>Sizes, flavors and decorations explained, so you can order the right cake without ordering too much of it.</p><a class="more" href="#blog">Learn more</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== INSTAGRAM ===== -->
+    <section class="insta wrap">
+      <h2>Follow us on Instagram</h2>
+      <a class="btn btn-outline" href="#"><svg class="icon"><use href="#ig"/></svg>Cakeshop</a>
+
+      <div class="insta-grid">
+        <div class="ph" style="--c1:#4a5a6a"><img src="images/instra1.jpg" alt=""></div>
+        <div class="ph" style="--c1:#8a5a3a"><img src="images/instra2.jpg" alt=""></div>
+        <div class="ph" style="--c1:#6a6a9a"><img src="images/instra3.jpg" alt=""></div>
+        <div class="ph" style="--c1:#a84a5a"><img src="images/instra4.jpg" alt=""></div>
+      </div>
+    </section>
+
+    <!-- ===== CART ===== -->
+    <section class="cart wrap" id="cart">
+      <h2>Your Cart</h2>
+      <p id="cart-empty">Your cart is empty.</p>
+      <ul id="cart-list"></ul>
+      <p class="cart-total">Total: <span id="cart-total">₨ 0</span></p>
+      <button class="btn" id="clear-btn">Clear cart</button>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="wrap" id="contact">
+
+    <div class="footer-bar">
+      <a class="logo" href="#home">Cake Shop</a>
+      <nav aria-label="Footer links">
+        <a href="#home">Home</a><a href="#cakes">Cakes</a><a href="#about">About</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="footer-grid">
+      <div>
+        <p>We bake every cake to order with real butter and fresh fruit. Visit the shop, call us, or send a message and we'll reply within one working day.</p>
+        <div class="social-buttons">
+          <a href="#"><svg class="icon"><use href="#ig"/></svg>Instagram</a>
+          <a href="#"><svg class="icon"><use href="#fb"/></svg>Facebook</a>
+          <a href="#"><svg class="icon"><use href="#tw"/></svg>Twitter</a>
+        </div>
+      </div>
+      <div><svg class="icon big"><use href="#pin"/></svg><h3>Location</h3><p>Defence Phase 5 <br>Clifton area</p></div>
+      <div><svg class="icon big"><use href="#phone"/></svg><h3>Contact</h3><p>913-473-7000<br><a href="mailto:Faizascake@gmail.com">Faizascake@gmail.com</a></p></div>
+    </div>
+
+    <p class="copy">Copyright ©2026 All rights reserved | Designed & Developed by MAHEEN ABDUL GHAFFAR with <b>♥</b></p>
+  </footer>
+
+  <!-- Back to top -->
+  <a id="to-top" href="#home" aria-label="Back to top">
+    <svg viewBox="0 0 24 24"><path d="M5 12l7-7 7 7M5 19l7-7 7 7"/></svg>
+  </a>
+
+  <script>
+    // Click the play button: the video plays inside the same box
+    document.getElementById('video-link').addEventListener('click', function (e) {
+      e.preventDefault();
+      var a = this, box = document.createElement('div'), v = document.createElement('video');
+      box.className = a.className;
+      box.style.cssText = a.getAttribute('style');
+      v.src = a.getAttribute('href');
+      v.poster = a.querySelector('img').src;
+      v.controls = true; v.autoplay = true; v.playsInline = true;
+      box.appendChild(v);
+      a.replaceWith(box);
+    });
+
+    // ===== SHOPPING CART =====
+    var cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    var cartList  = document.getElementById('cart-list');
+    var cartCount = document.getElementById('cart-count');
+    var cartTotal = document.getElementById('cart-total');
+    var cartEmpty = document.getElementById('cart-empty');
+
+    // Turns 2900 into "₨ 2,900"
+    function formatPKR(amount) {
+      return '₨ ' + amount.toLocaleString('en-US');
+    }
+
+    // Add an item (or increase its quantity if already in the cart)
+    function addToCart(name, price) {
+      var found = false;
+      for (var i = 0; i < cart.length; i++) {
+        if (cart[i].name === name) {
+          cart[i].qty++;
+          found = true;
+        }
+      }
+      if (!found) {
+        cart.push({ name: name, price: price, qty: 1 });
+      }
+      updateCart();
+    }
+
+    // Remove one item from the cart
+    function removeFromCart(index) {
+      cart.splice(index, 1);
+      updateCart();
+    }
+
+    // Redraw the cart on the page
+    function updateCart() {
+      cartList.innerHTML = '';
+      var total = 0;
+      var count = 0;
+
+      for (var i = 0; i < cart.length; i++) {
+        var item = cart[i];
+        total += item.price * item.qty;
+        count += item.qty;
+
+        var li = document.createElement('li');
+        var text = document.createElement('span');
+        text.textContent = item.name + ' x' + item.qty + ' — ' + formatPKR(item.price * item.qty);
+
+        var btn = document.createElement('button');
+        btn.textContent = 'Remove';
+        btn.setAttribute('data-index', i);
+        btn.addEventListener('click', function () {
+          removeFromCart(this.getAttribute('data-index'));
+        });
+
+        li.appendChild(text);
+        li.appendChild(btn);
+        cartList.appendChild(li);
+      }
+
+      cartCount.textContent = count;
+      cartTotal.textContent = formatPKR(total);
+      cartEmpty.style.display = cart.length === 0 ? 'block' : 'none';
+
+      localStorage.setItem('cart', JSON.stringify(cart));
+    }
+
+    // Connect every "Add to cart" button
+    var addButtons = document.querySelectorAll('.add-btn');
+    for (var i = 0; i < addButtons.length; i++) {
+      addButtons[i].addEventListener('click', function () {
+        var name  = this.getAttribute('data-name');
+        var price = Number(this.getAttribute('data-price'));
+        addToCart(name, price);
+
+        var button = this;
+        button.textContent = 'Added ✓';
+        setTimeout(function () { button.textContent = 'Add to cart'; }, 1000);
+      });
+    }
+
+    // Clear button
+    document.getElementById('clear-btn').addEventListener('click', function () {
+      cart = [];
+      updateCart();
+    });
+
+    updateCart();
+  </script>
+
+</body>
+</html>
